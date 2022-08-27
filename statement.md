@@ -7,7 +7,8 @@ Imports System
 
 Public Module modmain
    Sub Main()
-     Console.WriteLine ("Hello World!")
+     Dim Message As String = "Hey! Are your okay ?" : Dim Person As String = "Prinscilia"
+     Console.WriteLine ("Hello {0}", Message)
    End Sub
 End Module
 ```

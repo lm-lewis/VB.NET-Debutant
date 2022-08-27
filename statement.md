@@ -16,3 +16,22 @@ End Module
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), see the [official documentation](https://tech.io/playgrounds/408/tech-io-documentation).
+
+
+
+```vb.net runnable
+Imports System
+
+Public Module mod1
+   Sub CondIF()
+      If 1 = 4 AND 8 < (45+5/3) Then
+      End IF
+    
+      Dim Message As String = "How about your today ?" : Dim Name As String = "IFASO"
+      Console.WriteLine ("Hey! {0}, {1} ", Name,  Message)
+   End Sub
+End Module
+```
+
+
+   

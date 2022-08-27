@@ -1,0 +1,14 @@
+
+# Les conditions
+
+Public Module modcondition
+   Sub Main()
+   
+    If 1 = 4 AND 8 < (45+5/3) Then
+    End IF
+    
+     Dim Message As String = "How about your today ?" : Dim Name As String = "IFASO"
+     Console.WriteLine ("Hey! {0}, {1} ", Name,  Message)
+   End Sub
+End Module
+

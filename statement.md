@@ -23,8 +23,11 @@ If you want a more complex example (external libraries, viewers...), see the [of
 Imports System
 
 Public Module mod1
-   Sub CondIF()
+   Sub Main()
       If 1 = 4 AND 8 < (45+5/3) Then
+        Console.WriteLine(True)
+      Else
+        Console.WriteLine(False)
       End IF
     
       Dim Message As String = "How about your today ?" : Dim Name As String = "IFASO"
